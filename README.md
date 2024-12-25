@@ -1,6 +1,6 @@
 # `IC_Cal`
 
-This is a calculator app created using Rust and ReactJS in ICP.
+This is a calculator app created using Rust and ReactJS in ICP. You can access the calculator app on: https://rjqq7-eiaaa-aaaah-aq57q-cai.icp0.io/
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
