@@ -1,3 +1,4 @@
+![calculator](https://github.com/user-attachments/assets/47f38c63-e544-467c-9082-f2b79ecefcd6)
 # `IC_Cal`
 
 This is a calculator app created using Rust and ReactJS in ICP. You can access the calculator app on: https://rjqq7-eiaaa-aaaah-aq57q-cai.icp0.io/
