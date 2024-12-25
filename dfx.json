@@ -1,0 +1,32 @@
+{
+  "canisters": {
+    "IC_Cal_backend": {
+      "type": "rust",
+      "package": "IC_Cal_backend",
+      "candid": "src/IC_Cal_backend/IC_Cal_backend.did",
+      "main": "src/IC_Cal_backend",
+      "build": "cargo build --target wasm32-unknown-unknown --release --package IC_Cal_backend",
+      "output": "target/wasm32-unknown-unknown/release/IC_Cal_backend.wasm"
+    },
+    "IC_Cal_frontend": {
+      "type": "assets",
+      "source": ["src/IC_Cal_frontend/dist"]
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "--locked"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": ["https://mainnet.dfinity.network"],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}
